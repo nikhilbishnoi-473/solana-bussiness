@@ -39,13 +39,13 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
-  background: #FFF;
-  border: none;
+  background: white;
+   border: none;
 }
 
 .btn_1:hover {
-  background: white;
-  color: red;
+  background: red;
+  color: white;
 }
 
 .WELCOME_TO {
@@ -55,7 +55,7 @@
 }
 
 .background_color {
-  background: yellow;
+  background: #F6E300;
 }
 
 .pt_73 {
@@ -640,18 +640,10 @@
 
   .pb_44 {
     padding-bottom: 14px;
-  }
-  .timeline::after {
-    bottom: 25% !important;
-  }
+  } 
 
 }
-
-@media (max-width: 768px) {
-  .timeline::after {
-    bottom: 30%;
-  }
-}
+ 
 @media (min-width:992px) {
   .pb_115 {
     padding-bottom: 115px;
@@ -660,8 +652,19 @@
     padding-top: 114px;
   }
 } 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .timeline::after {
     bottom: 28%;
+  }
+}
+@media (min-width: 576px) {
+  .timeline::after {
+    bottom: 22%;
+  }
+}
+
+@media (min-width: 768px) {
+  .timeline::after {
+    bottom: 24%;
   }
 }
