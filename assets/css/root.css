@@ -72,3 +72,13 @@
      --fs_sm: 18px;
  }    
 }
+@media (min-width: 992px) {
+    :root{
+        /* font-size */
+        --fs_2xl: 48px;
+        --fs_xl: 30px;
+        --fs_lg: 24px;
+        --fs_md: 20px;
+        --fs_sm: 18px;
+    }    
+}
